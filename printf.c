@@ -15,6 +15,10 @@ conver_t list_of_function[] = {
 {"%", print_percent},
 {"d", print_integer},
 {"i", print_integer},
+{"b", print_binary},
+{"r", print_reversed},
+{"R", print_rot13},
+{"u", print_unsigned_integer},
 {NULL, NULL}
 };
 va_list arg_list;

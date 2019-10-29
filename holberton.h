@@ -28,5 +28,10 @@ int print_string(va_list);
 int print_percent(va_list);
 int print_integer(va_list);
 int print_number(va_list);
+int print_binary(va_list);
+int print_reversed(va_list arg);
+int print_rot13(va_list args);
+int print_unsigned_integer(va_list);
+int print_unsgined_number(unsigned int);
 
 #endif
